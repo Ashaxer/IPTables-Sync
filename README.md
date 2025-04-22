@@ -6,6 +6,7 @@ In this method, a process checks the iptables for changes each second, creates b
 
 Any other rules generated on remote servers (automatically or manually) will be replaced with the main server rules...
 
+# Setup
 First you need to generate SSH-Keys of your main server and set it up on your other server(s).
 
 Then Define hostnames in ~/.ssh/config
